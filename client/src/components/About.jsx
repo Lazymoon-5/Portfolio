@@ -49,12 +49,6 @@ export default function About() {
                   className="w-full h-full object-cover"
                   onError={(e) => { e.target.style.display = 'none'; }}
                 />
-                <div className="relative z-10 text-center p-8">
-                  <div className="w-24 h-24 rounded-full bg-white/10 flex items-center justify-center mx-auto mb-4">
-                    <span className="text-5xl">🧑‍💻</span>
-                  </div>
-                  <p className="font-mono text-muted text-sm">Add profile.jpg</p>
-                </div>
               </div>
 
               {/* Highlight chips */}

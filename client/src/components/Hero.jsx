@@ -89,8 +89,8 @@ export default function Hero() {
           </motion.span>
 
           <h1 className="font-display font-bold leading-tight mb-4">
-            <span className="block text-5xl lg:text-7xl text-white">Shaikh</span>
-            <span className="block text-5xl lg:text-7xl gradient-text">Suher</span>
+            <span className="block text-5xl lg:text-7xl text-white">Lazymoon</span>
+            <span className="block text-5xl lg:text-7xl gradient-text">Suher Shaikh</span>
           </h1>
 
           <div className="text-lg lg:text-xl text-muted font-body mb-6 h-8">
@@ -187,15 +187,6 @@ export default function Hero() {
                     e.target.nextSibling.style.display = 'flex';
                   }}
                 />
-                <div
-                  className="hidden w-full h-full flex-col items-center justify-center gap-3"
-                  style={{ display: 'flex' }}
-                >
-                  <div className="w-20 h-20 rounded-full bg-white/10 flex items-center justify-center">
-                    <span className="text-4xl">👤</span>
-                  </div>
-                  <span className="text-muted text-sm font-mono">profile.jpg</span>
-                </div>
               </div>
             </div>
 
